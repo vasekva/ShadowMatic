@@ -6,7 +6,7 @@ public class RotateObject : MonoBehaviour
     private bool isXPressed = false;
     void OnMouseDrag()
     {
-        Debug.Log("Mouse is pressed!");
+        //Debug.Log("Mouse is pressed!");
         float zAxisRotation = Input.GetAxis("Mouse X") * rotationSpeed;
         float yAxisRotation = Input.GetAxis("Mouse Y") * rotationSpeed;
         
